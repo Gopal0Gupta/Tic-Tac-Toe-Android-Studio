@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/ssss"
+    android:orientation="vertical">
+    <ImageView android:layout_width="185dp"
+        android:layout_height="185dp"
+        android:src="@drawable/icon1"
+        android:layout_gravity="center"
+        android:layout_marginTop="66dp" />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIC TAC TOE"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One Step Back To ChildHood"
+        android:layout_gravity="center"
+        android:layout_marginTop="65dp"
+        android:textSize="28sp"
+        android:textColor="@color/black" />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Play The Game"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="33sp"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/btnp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="PLAY NOW"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

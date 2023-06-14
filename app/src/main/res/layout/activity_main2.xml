@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/sss">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="87dp"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="20sp"
+            android:backgroundTint="#00FFFFFF"
+            android:contentDescription="@string/app_name"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:textSize="45sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn2"
+            android:contentDescription="@string/app_name"
+            android:layout_margin="25sp"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:backgroundTint="#00FFFFFF" />
+        <Button
+            android:id="@+id/btn3"
+            android:contentDescription="@string/app_name"
+            android:layout_margin="25sp"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:backgroundTint="#00FFFFFF"
+            android:layout_marginRight="20sp"/>
+        <Button
+            android:id="@+id/btn4"
+            android:contentDescription="@string/app_name"
+            android:layout_margin="25sp"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:onClick="Check"
+            android:textColor="#000000"
+            android:backgroundTint="#00FFFFFF" />
+        <Button
+            android:id="@+id/btn5"
+            android:contentDescription="@string/app_name"
+            android:layout_margin="25sp"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="Check" />
+        <Button
+            android:id="@+id/btn6"
+            android:contentDescription="@string/app_name"
+            android:layout_margin="25sp"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="Check"
+            android:layout_marginRight="20sp"/>
+        <Button
+            android:id="@+id/btn7"
+            android:contentDescription="@string/app_name"
+            android:layout_margin="25sp"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="Check"/>
+        <Button
+            android:id="@+id/btn8"
+            android:contentDescription="@string/app_name"
+            android:layout_margin="25sp"
+            android:textColor="#000000"
+            android:backgroundTint="#00FFFFFF"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:onClick="Check" />
+        <Button
+            android:id="@+id/btn9"
+            android:contentDescription="@string/app_name"
+            android:layout_margin="25sp"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="Check"
+            android:layout_marginRight="20sp"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="PLAY AGAIN"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
