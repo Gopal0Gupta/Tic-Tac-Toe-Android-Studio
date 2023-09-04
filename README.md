@@ -10,5 +10,5 @@ GAME SCREEN
 ![4](https://github.com/Gopal0Gupta/Tic-Tac-Toe-Android-Studio/assets/114791914/731f6b5c-0e2c-470a-b743-a0a4f3dea802)
 GAME SCREEN
 # Demo Video
-https://github.com/Gopal0Gupta/Tic-Tac-Toe-Android-Studio/assets/114791914/ee10525a-8774-4eef-b3d5-8eb5f9e2f025
+![Ciick Here](https://github.com/Gopal0Gupta/Tic-Tac-Toe-Android-Studio/assets/114791914/ee10525a-8774-4eef-b3d5-8eb5f9e2f025)
 
